@@ -242,7 +242,6 @@ elif selected_page == "Input Form":
     # Add Row Button
     if st.button("Add Row"):
         data = {
-            "Email": email,
             "LOB": LOB,
             "Center": center,
             "Partner Name": partner_name,
