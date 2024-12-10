@@ -65,7 +65,7 @@ if selected_page == "Login":
     email = st.text_input("Enter your email ID")
 
     if st.button("Login"):  # When the login button is clicked
-        allowed_emails = ["", "", ""]  # Example email list
+        allowed_emails = ["mis.operations@mpokket.com"]  # Example email list
         if email in allowed_emails:
             st.session_state["login_email"] = email
             st.session_state["selected_page"] = "How to Use"  # Set selected page directly after login
